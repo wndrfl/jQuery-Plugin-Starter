@@ -21,12 +21,7 @@
 		var $parent = $(el);
 		
 		var setup = function() {
-			setupParent();
-			setupChildren();
-			setupControls();
-			
-			// callback
-			settings.afterLoad.call(this,vars);
+			/* initial setup actions */
 		}
 		
         var trace = function(msg){
